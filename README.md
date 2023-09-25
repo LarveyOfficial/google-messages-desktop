@@ -1,6 +1,6 @@
-# Android Messages™ Desktop ![master status](https://github.com/OrangeDrangon/android-messages-desktop/actions/workflows/master.yml/badge.svg)
+# Google Messages Desktop ![master status](https://github.com/LarveyOfficial/google-messages-desktop/actions/workflows/master.yml/badge.svg)
 
-Run Android Messages as a desktop app, a la iMessage. For those of us that prefer not to have a browser tab always open for this sort of thing.
+Run Google Messages as a desktop app, a la iMessage. For those of us that prefer not to have a browser tab always open for this sort of thing.
 
 **Not affiliated with Google in any way. Android is a trademark of Google LLC.**
 
@@ -8,10 +8,14 @@ Inspired by:
 
 - [Google Play Music Desktop Player](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-)
 - [a Reddit post on r/Android](https://www.reddit.com/r/Android/comments/8shv6q/web_messages/e106a8r/)
+- [Android Messages™ Desktop](https://github.com/OrangeDrangon/android-messages-desktop)
 
-**Important Note 1:** We currently have builds for Windows and macOS, and Linux. I test releases on Arch Linux and to a lesser degree Windows. I would love help testing in additional places.
+Forked from:
+- [Android Messages™ Desktop](https://github.com/OrangeDrangon/android-messages-desktop)
 
-**Important Note 2:** Neither the MacOS nor the Windows binaries are signed right now. I am willing to add this but I do not have the certificates required at this time.
+**Important Note**
+The only difference between this and the fork is simply the name of "Google Messages" and a different icon.
+Code is not written by me, I am simply changing the icon/name, and that is all.
 
 # Install Anywhere
 
