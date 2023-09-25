@@ -9,7 +9,7 @@ const submenu: MenuItemConstructorOptions[] = [
     label: "Learn More",
     click: async (): Promise<void> =>
       await shell.openExternal(
-        "https://github.com/orangedrangon/android-messages-desktop/"
+        "https://github.com/LarveyOfficial/google-messages-desktop"
       ),
   },
 ];

@@ -68,7 +68,7 @@ if (gotTheLock) {
       x,
       y,
       autoHideMenuBar: autoHideMenuEnabled.value,
-      title: "Android Messages",
+      title: "Google Messages",
       show: false, //don't show window just yet (issue #229)
       icon: IS_LINUX
         ? path.resolve(RESOURCES_PATH, "icons", "128x128.png")

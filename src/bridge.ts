@@ -65,7 +65,7 @@ window.addEventListener("load", () => {
 
     const title = document.head.querySelector("title");
     if (title != null) {
-      title.innerText = "Android Messages";
+      title.innerText = "Google Messages";
     }
   });
 

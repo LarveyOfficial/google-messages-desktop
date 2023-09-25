@@ -21,18 +21,6 @@ Code is not written by me, I am simply changing the icon/name, and that is all.
 
 Download your build from the [releases](https://github.com/OrangeDrangon/android-messages-desktop/releases/latest) page.
 
-# Install on Archlinux via AUR
-
-`yay -S android-messages-desktop-bin` or the relevant command in your aur helper.
-
-# Install on MacOS via Homebrew
-
-`brew install --cask orangedrangon-android-messages`
-
-# Install on Windows via Scoop
-
-`scoop bucket add extras && scoop install android-messages`
-
 # Contributions
 
 The code is pretty ugly but getting better every day. Feel free to take a look.

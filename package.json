@@ -1,20 +1,20 @@
 {
-  "name": "android-messages-desktop",
+  "name": "google-messages-desktop",
   "description": "Messages for web, as a desktop app",
   "version": "5.4.1",
   "author": {
-    "name": "Kyle Rosenberg",
-    "email": "kyle@ekrosenberg.com"
+    "name": "Luis Vervaet",
+    "email": "luisrvervaet@gmail.com"
   },
-  "license": "MIT",
-  "copyright": "Copyright 2020 Kyle Rosenberg",
-  "homepage": "https://github.com/OrangeDrangon/android-messages-desktop",
+  "license": "WTFPL",
+  "copyright": "Copyright 2023 Luis Vervaet",
+  "homepage": "https://github.com/LarveyOfficial/google-messages-desktop",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OrangeDrangon/android-messages-desktop.git"
+    "url": "git+https://github.com/LarveyOfficial/google-messages-desktop.git"
   },
   "bugs": {
-    "url": "https://github.com/OrangeDrangon/android-messages-desktop/issues"
+    "url": "https://github.com/LarveyOfficial/google-messages-desktop/issues"
   },
   "main": "app/background.js",
   "scripts": {

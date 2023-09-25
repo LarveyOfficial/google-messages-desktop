@@ -1,8 +1,8 @@
 module.exports = {
   appId: "pw.kmr.amd",
   artifactName: "${productName}-v${version}-${os}-${arch}.${ext}",
-  productName: "Android Messages",
-  copyright: "Copyright 2020 Kyle Rosenberg",
+  productName: "Google Messages",
+  copyright: "Copyright 2023 Luis Vervaet",
   files: ["app/**/*", "resources/**/*"],
   directories: {
     buildResources: "resources",
@@ -10,10 +10,10 @@ module.exports = {
   },
   linux: {
     target: ["AppImage", "snap", "deb", "pacman", "rpm", "freebsd", "zip"],
-    executableName: "AndroidMessages",
+    executableName: "GoogleMessages",
     category: "Internet",
     desktop: {
-      StartupWMClass: "android-messages-desktop",
+      StartupWMClass: "google-messages-desktop",
     },
   },
   win: {
