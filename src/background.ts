@@ -91,23 +91,15 @@ if (gotTheLock) {
 
     // set user agent to potentially make google fi work
     const userAgent =
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36";
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0";
 
     mainWindow.webContents.session.webRequest.onBeforeSendHeaders(
-      {
-        urls: ["https://accounts.google.com/*"],
-      },
       ({ requestHeaders }, callback) =>
         callback({
           requestHeaders: { ...requestHeaders, "User-Agent": userAgent },
         })
     );
-
-    session.defaultSession.webRequest.onBeforeSendHeaders((details, callback) => {
-        details.requestHeaders["User-Agent"] = "Chrome";
-        callback({ cancel: false, requestHeaders: details.requestHeaders });
-    });
-
+    
     mainWindow.loadURL("https://messages.google.com/web/");
 
     trayManager.startIfEnabled();
