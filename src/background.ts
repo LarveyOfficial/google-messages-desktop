@@ -103,6 +103,11 @@ if (gotTheLock) {
         })
     );
 
+    session.defaultSession.webRequest.onBeforeSendHeaders((details, callback) => {
+        details.requestHeaders["User-Agent"] = "Chrome";
+        callback({ cancel: false, requestHeaders: details.requestHeaders });
+    });
+
     mainWindow.loadURL("https://messages.google.com/web/");
 
     trayManager.startIfEnabled();
