@@ -131,9 +131,8 @@ if (gotTheLock) {
       }
     });
 
-    mainWindow.webContents.on("new-window", (e, url) => {
-      e.preventDefault();
-      shell.openExternal(url);
+    mainWindow.webContents.setWindowOpenHandler(() => {
+      return { action: "deny" };
     });
 
     mainWindow.webContents.on("context-menu", popupContextMenu);
